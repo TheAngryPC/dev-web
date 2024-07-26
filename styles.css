@@ -1,25 +1,205 @@
+@property --bg-dim {
+    syntax: "<color>";
+    inherits: false;
+    initial-value: #252423;
+}
+
+@property --bg0 {
+    syntax: "<color>";
+    inherits: false;
+    initial-value: #32302f;
+}
+
+@property --bg1 {
+    syntax: "<color>";
+    inherits: false;
+    initial-value: #3c3836;
+}
+
+@property --bg2 {
+    syntax: "<color>";
+    inherits: false;
+    initial-value: #3c3836;
+}
+
+@property --bg3 {
+    syntax: "<color>";
+    inherits: false;
+    initial-value: #504945;
+}
+
+@property --bg4 {
+    syntax: "<color>";
+    inherits: false;
+    initial-value: #504945;
+}
+
+@property --bg5 {
+    syntax: "<color>";
+    inherits: false;
+    initial-value: #665c54;
+}
+
+@property --bg-statusline1 {
+    syntax: "<color>";
+    inherits: false;
+    initial-value: #3c3836;
+}
+
+@property --bg-statusline2 {
+    syntax: "<color>";
+    inherits: false;
+    initial-value: #46413e;
+}
+
+@property --bg-statusline3 {
+    syntax: "<color>";
+    inherits: false;
+    initial-value: #5b534d;
+}
+
+@property --bg-diff-green {
+    syntax: "<color>";
+    inherits: false;
+    initial-value: #3d4220;
+}
+
+@property --bg-visual-green {
+    syntax: "<color>";
+    inherits: false;
+    initial-value: #424a3e;
+}
+
+@property --bg-diff-red {
+    syntax: "<color>";
+    inherits: false;
+    initial-value: #472322;
+}
+
+@property --bg-visual-red {
+    syntax: "<color>";
+    inherits: false;
+    initial-value: #543937;
+}
+
+@property --bg-diff-blue {
+    syntax: "<color>";
+    inherits: false;
+    initial-value: #0f3a42;
+}
+
+@property --bg-visual-blue {
+    syntax: "<color>";
+    inherits: false;
+    initial-value: #404946;
+}
+
+@property --bg-visual-yellow {
+    syntax: "<color>";
+    inherits: false;
+    initial-value: #574833;
+}
+
+@property --bg-current-word {
+    syntax: "<color>";
+    inherits: false;
+    initial-value: #45403d;
+}
+
+@property --bg-red {
+    syntax: "<color>";
+    inherits: false;
+    initial-value: #ea6962;
+}
+
+@property --bg-green {
+    syntax: "<color>";
+    inherits: false;
+    initial-value: #a9b665;
+}
+
+@property --bg-yellow {
+    syntax: "<color>";
+    inherits: false;
+    initial-value: #d8a657;
+}
+
+@property --fg0 {
+    syntax: "<color>";
+    inherits: false;
+    initial-value: #d4be98;
+}
+
+@property --fg1 {
+    syntax: "<color>";
+    inherits: false;
+    initial-value: #ddc7a1;
+}
+
+@property --red {
+    syntax: "<color>";
+    inherits: false;
+    initial-value: #ea6962;
+}
+
+@property --orange {
+    syntax: "<color>";
+    inherits: false;
+    initial-value: #e78a4e;
+}
+
+@property --yellow {
+    syntax: "<color>";
+    inherits: false;
+    initial-value: #d8a657;
+}
+
+@property --green {
+    syntax: "<color>";
+    inherits: false;
+    initial-value: #a9b665;
+}
+
+@property --aqua {
+    syntax: "<color>";
+    inherits: false;
+    initial-value: #89b482;
+}
+
+@property --blue {
+    syntax: "<color>";
+    inherits: false;
+    initial-value: #7daea3;
+}
+
+@property --purple {
+    syntax: "<color>";
+    inherits: false;
+    initial-value: #d3869b;
+}
+
 body {
     font-family: Arial, sans-serif;
-    background-color: #33302c;
+    background-color: var(--bg_dim);
     margin: 0;
     padding: 0;
     display: flex;
 }
 
 h1 {
-    color: #daae75;
+    color: var(--aqua);
 }
 
 p {
-    color: #ede6de;
+    color: var(--fg1);
 }
 
 .sidebar {
     width: 250px;
-    background-color: #f4f4f4;
+    background-color: var(--bg3);
     padding: 15px;
     box-shadow: 2px 0 5px rgba(0,0,0,0.1);
-    height: 100vh;
+    height: auto;
 }
 
 .content {
@@ -42,7 +222,7 @@ p {
 
 .sidebar ul li a {
     text-decoration: none;
-    color: #333;
+    color: var(--fg1);
 }
 
 .sidebar ul li a:hover {
