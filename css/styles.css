@@ -231,4 +231,5 @@ p {
 
 .sidebar ul li a:hover {
     text-decoration: underline;
+    background-color: --bg4;
 }
