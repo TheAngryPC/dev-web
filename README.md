@@ -1,10 +1,4 @@
 # dev-web
- My website for family and friends!
+My website for family and friends! This site is a massive work in progress, and I am a lowly hobbiest programmer, as you can tell. However, I hope this site is helpful to you!
 
-Add the files and folders with the HTML for your website to the folder on your computer for that repository.
-
-Click on the button in the Github Desktop program that syncs your local files with the copy of the repository that Github keeps.
-
-Sign up for an account with Netlify.
-
-Deploy a new site on Netlify based on your Github repository. Netlify will walk you through the steps, and almost all of the work is automated for you. You can do this with or without your own custom domain name.
+[![Netlify Status](https://api.netlify.com/api/v1/badges/073e4ae4-b74b-4ab9-a6a6-9104887f419b/deploy-status)](https://app.netlify.com/sites/dev-fly/deploys)
