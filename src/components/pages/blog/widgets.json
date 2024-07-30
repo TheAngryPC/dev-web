@@ -6,8 +6,8 @@
       "link": "/blog/post1"
     },
     {
-      "title": "Blog Post 2",
-      "image": "https://via.placeholder.com/150",
+      "title": "New Pilots",
+      "image": "src/assets/20200304_173030 copy.jpg",
       "description": "This is a short description of blog post 2.",
       "link": "/blog/post2"
     },
