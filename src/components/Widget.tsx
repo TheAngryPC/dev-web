@@ -17,7 +17,7 @@ const Widget: React.FC<WidgetProps> = ({ image, title, description, link }) => {
       <Card.Body>
         <Card.Title>{title}</Card.Title>
         <Card.Text>{description}</Card.Text>
-        <Link to={link} className="btn btn-primary">
+        <Link to={link} className="btn btn-secondary">
           Read More
         </Link>
       </Card.Body>

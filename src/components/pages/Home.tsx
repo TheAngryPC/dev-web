@@ -2,7 +2,7 @@
 import React from "react";
 import Widget from "../Widget";
 import { Container, Row, Col } from "react-bootstrap";
-import widgetData from "../media/blog-cards/widgets.json"; // Import the JSON data
+import widgetData from "./blog/widgets.json"; // Import the JSON data
 import { Widget as WidgetType } from "../types/Widget";
 
 const Home: React.FC = () => {
@@ -10,6 +10,8 @@ const Home: React.FC = () => {
 
   return (
     <Container>
+      <h1 className="display-1">Welcome!</h1>
+      <p></p>
       <Row>
         {widgets.map((widget, index) => (
           <Col key={index}>

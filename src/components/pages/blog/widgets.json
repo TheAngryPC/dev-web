@@ -1,9 +1,9 @@
 [
     {
-      "title": "Dynamic Regulatory Service (DRS)",
-      "image": "https://airandspace.si.edu/sites/default/files/styles/body_large/public/images/14253h.jpg?itok=SNwtwPZZ",
-      "description": "The DRS is a comprehensive knowledge center that includes all regulatory guidance material.",
-      "link": "https://drs.faa.gov/browse"
+      "title": "About Me",
+      "image": "src/assets/Devon.png",
+      "description": "The only way to do great work is to love what you do. If you haven't found it yet, keep looking. Don't settle. As with all matters of the heart, you'll know when you find it. \n - Steve Jobs",
+      "link": "/blog/post1"
     },
     {
       "title": "Blog Post 2",
@@ -18,4 +18,3 @@
       "link": "/blog/post3"
     }
   ]
-  
