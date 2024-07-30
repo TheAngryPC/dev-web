@@ -10,7 +10,6 @@ const Home: React.FC = () => {
 
   return (
     <Container>
-      <h1 className="display-1">Welcome!</h1>
       <p></p>
       <Row>
         {widgets.map((widget, index) => (

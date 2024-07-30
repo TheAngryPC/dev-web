@@ -1,20 +1,20 @@
 [
-    {
-      "title": "About Me",
-      "image": "https://i.imgur.com/Mw9ynyx.png",
-      "description": "The only way to do great work is to love what you do. If you haven't found it yet, keep looking. Don't settle. As with all matters of the heart, you'll know when you find it. \n - Steve Jobs",
-      "link": "/blog/post1"
-    },
-    {
-      "title": "New Pilots",
-      "image": "https://i.imgur.com/HXau0TH.jpg",
-      "description": "This is a short description of blog post 2.",
-      "link": "/blog/post2"
-    },
-    {
-      "title": "Blog Post 3",
-      "image": "https://via.placeholder.com/150",
-      "description": "This is a short description of blog post 3.",
-      "link": "/blog/post3"
-    }
-  ]
+  {
+    "title": "Welcome!",
+    "image": "https://starjets.net/wp-content/uploads/2016/04/Cessna-Citation-XLS.jpg",
+    "description": "",
+    "link": "/blog/post3"
+  },
+  {
+    "title": "About Me",
+    "image": "https://i.imgur.com/Mw9ynyx.png",
+    "description": "The only way to do great work is to love what you do. If you haven't found it yet, keep looking. Don't settle. As with all matters of the heart, you'll know when you find it. \n - Steve Jobs",
+    "link": "/blog/post1"
+  },
+  {
+    "title": "New Pilots",
+    "image": "https://i.imgur.com/HXau0TH.jpg",
+    "description": "WIP",
+    "link": "/blog/post2"
+  }
+]
