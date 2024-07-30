@@ -1,0 +1,21 @@
+[
+    {
+      "title": "Dynamic Regulatory Service (DRS)",
+      "image": "https://airandspace.si.edu/sites/default/files/styles/body_large/public/images/14253h.jpg?itok=SNwtwPZZ",
+      "description": "The DRS is a comprehensive knowledge center that includes all regulatory guidance material.",
+      "link": "https://drs.faa.gov/browse"
+    },
+    {
+      "title": "Blog Post 2",
+      "image": "https://via.placeholder.com/150",
+      "description": "This is a short description of blog post 2.",
+      "link": "/blog/post2"
+    },
+    {
+      "title": "Blog Post 3",
+      "image": "https://via.placeholder.com/150",
+      "description": "This is a short description of blog post 3.",
+      "link": "/blog/post3"
+    }
+  ]
+  
