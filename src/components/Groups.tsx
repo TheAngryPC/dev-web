@@ -1,3 +1,5 @@
+import { MouseEvent } from "react";
+
 function ButtonGroup() {
   let bsClass = 'list-group-item list-group-item-action'
   let title = 'List'
@@ -9,11 +11,22 @@ function ButtonGroup() {
     }
   }
 
+  const logEvent = (event: MouseEvent) => {
+    console.log(event)
+  };
+  
+
+  const getButton = () => {
+    if (items.length > 0) {
+      return items.map(item => <button className={bsClass} key={items.indexOf(item)} type="button" onClick={logEvent}>{item}</button>)
+    }
+  }
+
   return (
   <div className="list-group">
     <h1 className="display-1">{title}</h1>
-    {getMessage()}
-    {items.map(item => <button type="button" className={bsClass}>{item}</button>)}
+    {getMessage()} 
+    {getButton()}
   </div>
   );
 }
