@@ -1,13 +1,13 @@
 [
     {
       "title": "About Me",
-      "image": "src/assets/Devon.png",
+      "image": "src/components/assets/Devon.png",
       "description": "The only way to do great work is to love what you do. If you haven't found it yet, keep looking. Don't settle. As with all matters of the heart, you'll know when you find it. \n - Steve Jobs",
       "link": "/blog/post1"
     },
     {
       "title": "New Pilots",
-      "image": "src/assets/20200304_173030 copy.jpg",
+      "image": "src/components/assets/sr22-mnt.jpg",
       "description": "This is a short description of blog post 2.",
       "link": "/blog/post2"
     },
