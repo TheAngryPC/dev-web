@@ -1,6 +1,6 @@
 [build]
 base = "/"
-publish = "vite-project/index.html"
+publish = "index.html"
 [functions]
 external_node_modules = ["express"]
 node_bundler = "esbuild"
