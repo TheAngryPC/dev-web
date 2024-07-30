@@ -1,4 +1,8 @@
-# dev-web
-My website for family and friends! This site is a massive work in progress, and I am a lowly hobbiest programmer, as you can tell. However, I hope this site is helpful to you!
+# React + Vite
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/073e4ae4-b74b-4ab9-a6a6-9104887f419b/deploy-status)](https://app.netlify.com/sites/dev-fly/deploys)
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
