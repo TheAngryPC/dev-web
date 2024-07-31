@@ -8,10 +8,10 @@
       "image": "https://starjets.net/wp-content/uploads/2016/04/Cessna-Citation-XLS.jpg"
     },
     {
-      "id": "post2",
-      "title": "Blog Post 2",
-      "author": "Jane Doe",
-      "date": "August 10, 2024",
+      "id": "About Me",
+      "title": "About Me",
+      "author": "Devon J. Natalie",
+      "date": "July 31, 2024",
       "content": "<p>This is a sample blog post. You can edit the content easily by changing the <code>content</code> prop.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur venenatis urna vitae lacus lacinia, at sodales justo blandit. Praesent ultricies, erat at gravida viverra, risus turpis ornare urna, eu varius elit mauris et lorem.</p><p><strong>Proin fermentum</strong> convallis justo, at consectetur massa malesuada eu. Vivamus et velit hendrerit, cursus augue at, accumsan risus. Mauris vitae tincidunt justo. In consequat ligula sapien, sit amet cursus urna ornare nec.</p>",
       "image": "https://i.imgur.com/Mw9ynyx.png"
     },

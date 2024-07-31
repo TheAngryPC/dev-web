@@ -6,6 +6,7 @@ import {
   fetchBlogPosts,
   BlogPost as BlogPostType,
 } from "./utils/fetchBlogPosts";
+import { stripHtmlTags } from "./utils/stripHtmlTags";
 
 const Home: React.FC = () => {
   const widgets = fetchBlogPosts();
@@ -18,7 +19,7 @@ const Home: React.FC = () => {
             <Widget
               image={widget.image}
               title={widget.title}
-              description={widget.content.substring(0, 100)} // Short description
+              description={stripHtmlTags(widget.content).substring(0, 100)} // Short description without HTML
               link={`/blog/${widget.id}`}
             />
           </Col>
