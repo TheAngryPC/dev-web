@@ -1,10 +1,7 @@
 /* App.module.css */
 .app {
-  background: rgb(177,149,105);
-  background: -moz-linear-gradient(0deg, rgba(177,149,105,1) 0%, rgba(195,198,199,1) 23%, rgba(231,244,249,1) 24%, rgba(202,217,236,1) 35%, rgba(132,207,236,1) 100%);
-  background: -webkit-linear-gradient(0deg, rgba(177,149,105,1) 0%, rgba(195,198,199,1) 23%, rgba(231,244,249,1) 24%, rgba(202,217,236,1) 35%, rgba(132,207,236,1) 100%);
-  background: linear-gradient(0deg, rgba(177,149,105,1) 0%, rgba(195,198,199,1) 23%, rgba(231,244,249,1) 24%, rgba(202,217,236,1) 35%, rgba(132,207,236,1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#b19569",endColorstr="#84cfec",GradientType=1);
+  background-color: #dee3e6;
+  color: rgb(0, 0, 0);
 }
 
 h1 {

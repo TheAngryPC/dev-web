@@ -1,4 +1,4 @@
-// Widget.tsx
+// src/components/Widget.tsx
 import React from "react";
 import { Card } from "react-bootstrap";
 import { Link } from "react-router-dom";
@@ -17,7 +17,7 @@ const Widget: React.FC<WidgetProps> = ({ image, title, description, link }) => {
       <Card.Body>
         <Card.Title>{title}</Card.Title>
         <Card.Text>{description}</Card.Text>
-        <Link to={link} className="btn btn-secondary">
+        <Link to={link} className="btn btn-primary">
           Read More
         </Link>
       </Card.Body>
