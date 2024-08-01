@@ -15,6 +15,9 @@ const NavBar: React.FC = () => {
             <Nav.Link as={NavLink} to="/">
               Home
             </Nav.Link>
+            <Nav.Link as={NavLink} to="/calendar">
+              Calendar
+            </Nav.Link>
             <Nav.Link as={NavLink} to="/about">
               About
             </Nav.Link>
