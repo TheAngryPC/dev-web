@@ -1,26 +1,10 @@
 [
   {
-    "id": "Welcome",
+    "id": "welcome-post",
     "title": "Welcome!",
     "author": "Devon J. Natalie",
-    "date": "July 30, 2024",
-    "content": "<p>Welcome to the blog! This is a sample blog post. You can edit the content easily by changing the <code>content</code> prop.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur venenatis urna vitae lacus lacinia, at sodales justo blandit. Praesent ultricies, erat at gravida viverra, risus turpis ornare urna, eu varius elit mauris et lorem.</p><p><strong>Proin fermentum</strong> convallis justo, at consectetur massa malesuada eu. Vivamus et velit hendrerit, cursus augue at, accumsan risus. Mauris vitae tincidunt justo. In consequat ligula sapien, sit amet cursus urna ornare nec.</p>",
-    "image": "https://starjets.net/wp-content/uploads/2016/04/Cessna-Citation-XLS.jpg"
-  },
-  {
-    "id": "About Me",
-    "title": "About Me",
-    "author": "Devon J. Natalie",
     "date": "July 31, 2024",
-    "content": "<p>This is a sample blog post. You can edit the content easily by changing the <code>content</code> prop.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur venenatis urna vitae lacus lacinia, at sodales justo blandit. Praesent ultricies, erat at gravida viverra, risus turpis ornare urna, eu varius elit mauris et lorem.</p><p><strong>Proin fermentum</strong> convallis justo, at consectetur massa malesuada eu. Vivamus et velit hendrerit, cursus augue at, accumsan risus. Mauris vitae tincidunt justo. In consequat ligula sapien, sit amet cursus urna ornare nec.</p>",
-    "image": "https://i.imgur.com/Mw9ynyx.png"
-  },
-  {
-    "id": "post3",
-    "title": "Blog Post 3",
-    "author": "John Smith",
-    "date": "September 5, 2024",
-    "content": "<p>This is a sample blog post. You can edit the content easily by changing the <code>content</code> prop.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur venenatis urna vitae lacus lacinia, at sodales justo blandit. Praesent ultricies, erat at gravida viverra, risus turpis ornare urna, eu varius elit mauris et lorem.</p><p><strong>Proin fermentum</strong> convallis justo, at consectetur massa malesuada eu. Vivamus et velit hendrerit, cursus augue at, accumsan risus. Mauris vitae tincidunt justo. In consequat ligula sapien, sit amet cursus urna ornare nec.</p>",
-    "image": "https://i.imgur.com/HXau0TH.jpg"
+    "image": "https://starjets.net/wp-content/uploads/2016/04/Cessna-Citation-XLS.jpg",
+    "content": "<p>Hello, welcome to <code>Devon.Flights</code>!</p>\n<p>My name is Devon Natalie, I am a Chief Flight Instructor at a flight school in Erie, PA. With extensive experience training students to become the next generation of hobby pilots and professionals. I am also a charter pilot flying the Cessna Citation XLS (C56X).</p>\n<p>The purpose of this website is to share my knowledge and experiences in aviation. Here, you may find resources, information, and insights designed to educate and inspire. Whether you are an aviation enthusiast, a fellow instructor, or someone interested just interested in aviation, there might just be something here for you.</p>\n<p>You will also find my work schedule on this website. Please use this schedule to best find times that are most convient for you to reach me.</p>\n<p>Please feel free to explore the site and reach out if you have any questions or suggestions.</p>\n<p>Warm regards,</p>\n<p><em>Devon J. Natalie</em></p>"
   }
 ]
