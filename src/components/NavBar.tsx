@@ -21,8 +21,8 @@ const NavBar: React.FC = () => {
             <Nav.Link as={NavLink} to="/about">
               About
             </Nav.Link>
-            <Nav.Link as={NavLink} to="/services">
-              Services
+            <Nav.Link as={NavLink} to="/students">
+              Students
             </Nav.Link>
             <Nav.Link as={NavLink} to="/contact">
               Contact
