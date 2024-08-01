@@ -12,6 +12,7 @@ import {
   BlogPost as BlogPostType,
 } from "./utils/fetchBlogPosts";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Calendar from "./Calendar";
 
 const App: React.FC = () => {
   const blogPosts = fetchBlogPosts();
@@ -21,7 +22,7 @@ const App: React.FC = () => {
       <NavBar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/calendar" element={<Home />} />
+        <Route path="/calendar" element={<Calendar />} />
         <Route path="/about" element={<About />} />
         <Route path="/services" element={<Services />} />
         <Route path="/contact" element={<Contact />} />
